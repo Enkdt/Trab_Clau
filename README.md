@@ -13,5 +13,5 @@ O trabalho designado em aula foi feito com a finalidade de usar a programação 
 
 O grupo escolheu a realização de um programa que demonstra formulas matemáticas, graças à sua utilidade para resolver problemas e exercícios
 
-Neste trabalho foi exigida a criação de um programa fazendo o uso de javascript, com o plugin nodeJS. 
+Neste trabalho foi exigida a criação de um programa fazendo o uso de JavaScript, com o plugin nodeJS. 
 Links para o Trello (Kanban board) e documentação serão adicionados posteriormente.
