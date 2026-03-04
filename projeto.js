@@ -7,23 +7,23 @@ compreensão*/
 
 formas = 5
 formulas = 5
-console.log('Troque a variável formas para selecionar a forma e formulas para selecionar a formula 🔥\n')
+console.log('Troque a variável formas para selecionar a forma e fórmulas para selecionar a fórmula 🔥\n')
 
 switch (formas){
     case 0:
         /*Quadrados e retângulo*/
         switch (formulas){
             case 0:
-                console.log('Area do quadrado: l²')
+                console.log('Área do quadrado: l²')
                 break;
             case 1:
-                console.log('Volume do quadrado:l² * H')
+                console.log('Volume do cubo:l² * H')
                 break;
-            case 2: 
+            case 2:
                 console.log('Área do retângulo: b * h')
                 break;
-            case 3: 
-                console.log('Volume do retângulo: b * h * H')                
+            case 3:
+                console.log('Volume do paralelepípedo: b * h * H')                
                 break;
             default:
                 console.log('Inválido')
@@ -31,16 +31,17 @@ switch (formas){
         }
         break;
     case 1:
-        /*triangulo*/
+        /*triangulo
+        to-do later*/
         switch (formulas){
             case 0:
-                console.log('Area do triangulo: b*h/2')
+                console.log('Area do triângulo: b*h/2')
                 break;
             case 1:
-                console.log('Volume do triangulo: b*h/2 * H')
+                console.log('Volume do triângulo/prisma: b*h/2 * H')
                 break;
             case 2:
-                console.log('Pitagoras: Hip² = Co² + Ca²')
+                console.log('Pitágoras: Hip² = Co² + Ca²')
                 break;
             case 3:
                 console.log('Hierão: \u221Ap(p-a)(p-b)(p-c)')
@@ -60,16 +61,16 @@ switch (formas){
         /*trapézio e losango*/
         switch (formulas){
             case 0:
-                console.log('Area do trapezio: (b+B)*h/2')
+                console.log('Área do trapézio: (b+B)*h/2')
                 break;
             case 1:
-                console.log('Volume do trapezio/prisma:(b+B)*h/2 *h\'')
+                console.log('Volume do trapézio/prisma:(b+B)*h/2 *h\'')
                 break;
             case 2:
-                console.log('Area do losango: D * d/2')
+                console.log('Área do losango: D * d/2')
                 break;
             case 3:
-                console.log('Volume do losango: D * d/2')
+                console.log('Volume do losango/prisma: D * d/2 * h')
                 break;
             default:
                 console.log('Inválido')
@@ -80,10 +81,10 @@ switch (formas){
         /*circulo e esfera*/
         switch (formulas){
             case 0:
-                console.log('Area do circulo: π * r²')
+                console.log('Área do círculo: π * r²')
                 break;
             case 1:
-                console.log('Volume do circulo: π * r² * h')
+                console.log('Volume do cilindro: π * r² * h')
                 break;
             case 2:
                 console.log('Volume da esfera: 4/3 * π * r³')
@@ -92,7 +93,7 @@ switch (formas){
                 console.log('Inválido')
                 break;        
         }
-        break;   
+        break;  
     case 4:
         /*adicionais*/
         switch (formulas){
@@ -106,7 +107,7 @@ switch (formas){
                 console.log('Quadrática/Bhaskara: -b \u00B1 \u221Ab²-4ac)/2a')
                 break;
             case 3:
-                console.log('Área de figuras a partir do pentagono: aT * n')
+                console.log('Área de figuras a partir do pentágono: aT * n')
                 break;
             case 4:
                 console.log('Volume do cone: 1/3 * π * r² * h')
@@ -118,5 +119,6 @@ switch (formas){
     break;
     default:
         console.log('Inválido')
-        break;               
+        break;              
 }
+
